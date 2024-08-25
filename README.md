@@ -31,3 +31,15 @@ Go to Kitty Documentation: https://sw.kovidgoyal.net/kitty/
 2\. Change anything you need and save. Do ctrl+shift F5 to reload the config file
 
 To add anything to the terminal, go to the documentation.
+
+- - - -
+
+**How to Edit PowerShell**
+
+There is a folder called **WindowsPowerShell**
+In this folder, you can create custom scripts for PowerShell.
+
+All you have to do is follow the simple syntax:
+function name {
+  // Your Code
+}
