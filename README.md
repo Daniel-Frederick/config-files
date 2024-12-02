@@ -36,8 +36,10 @@ To add anything to the terminal, go to the documentation.
 
 **How to Edit PowerShell**
 
-There is a folder called **WindowsPowerShell**
+There is a folder called **WindowsPowerShell** in your Documents directory.
 In this folder, you can create custom scripts for PowerShell.
+Create a script called: Microsoft.PowerShell_profile.ps1
+Paste the file here to your new file.
 
 All you have to do is follow the simple syntax:
 function name {
