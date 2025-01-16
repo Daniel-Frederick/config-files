@@ -25,6 +25,7 @@ Change the line to whatever your heart desires.
 Go to Kitty Documentation: https://sw.kovidgoyal.net/kitty/
 
 1\. ctrl+shift F2   to open kitty config file
+Config file: ~/.config/kitty/kitty.conf
 
 - If you don't have one create one
 
