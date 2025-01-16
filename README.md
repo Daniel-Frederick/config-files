@@ -18,18 +18,20 @@ To update the file after change it, save and enter the command: **source ~/.bash
 
 Change the line to whatever your heart desires.
 
-&nbsp;
+- - - -
 
 **How to Edit your Kitty File**
 
 Go to Kitty Documentation: https://sw.kovidgoyal.net/kitty/
 
 1\. ctrl+shift F2   to open kitty config file
-Config file: ~/.config/kitty/kitty.conf
 
+- File path: ~/.config/kitty/kitty.conf
 - If you don't have one create one
 
-2\. Change anything you need and save. Do ctrl+shift F5 to reload the config file
+2\. copy and paste the provided kitty.conf file into your new kitty.conf file
+
+- Reload config file shortcut: ctrl+shift F5
 
 To add anything to the terminal, go to the documentation.
 
