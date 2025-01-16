@@ -33,7 +33,7 @@ Go to Kitty Documentation: https://sw.kovidgoyal.net/kitty/
 
 - Reload config file shortcut: ctrl+shift F5
 
-To add anything to the terminal, go to the documentation.
+To modify anything in the terminal, refer to the documentation
 
 - - - -
 
