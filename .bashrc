@@ -11,6 +11,9 @@ bind 'set colored-completion-prefix on'
 bind 'set completion-prefix-display-length 0'
 bind 'set show-all-if-ambiguous on'
 
+# Bind Ctrl+Backspace to delete the previous word
+bind '"\C-H": backward-kill-word'
+
 # Source global definitions
 if [ -f /etc/bashrc ]; then
   . /etc/bashrc
@@ -19,8 +22,7 @@ fi
 # User specific environment
 if ! [[ "$PATH" =~ "$HOME/.local/bin:$HOME/bin:" ]]; then
   PATH="$HOME/.local/bin:$HOME/bin:$PATH"
-fi
-export PATH
+fi export PATH
 
 # User specific aliases and functions
 if [ -d ~/.bashrc.d ]; then
