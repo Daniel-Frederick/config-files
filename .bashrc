@@ -1,4 +1,3 @@
-# Function to get the current Git branch
 function parse_git_branch {
   git branch 2>/dev/null | grep '\*' | sed 's/* //'
 }
@@ -22,7 +21,8 @@ fi
 # User specific environment
 if ! [[ "$PATH" =~ "$HOME/.local/bin:$HOME/bin:" ]]; then
   PATH="$HOME/.local/bin:$HOME/bin:$PATH"
-fi export PATH
+fi  # Missing fi added here
+export PATH  # Corrected capitalization of export
 
 # User specific aliases and functions
 if [ -d ~/.bashrc.d ]; then
