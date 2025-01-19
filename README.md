@@ -48,3 +48,17 @@ All you have to do is follow the simple syntax:
 function name {
   // Your Code
 }
+
+- - - -
+
+**My LazyVim Setup**
+How to Configure C++ for LazyVim
+1. Install clangd
+-  sudo dnf install clangd
+-  clangd --version
+
+2. Go to file path: ~/.config/nvim/lua/plugins
+3. Add the clangd.lua plugin file from above
+You can check if it installed correctly if you do ":Lazy" (LazyVim is picky on capitalization)
+
+5. 
