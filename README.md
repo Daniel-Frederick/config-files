@@ -60,5 +60,3 @@ How to Configure C++ for LazyVim
 2. Go to file path: ~/.config/nvim/lua/plugins
 3. Add the clangd.lua plugin file from above
 You can check if it installed correctly if you do ":Lazy" (LazyVim is picky on capitalization)
-
-5. 
