@@ -73,7 +73,7 @@ You can check if it installed correctly if you do ":Lazy" (LazyVim is picky on c
 3. sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 4. sudo dnf install curl
 
-Install Powerlevel10k
+- Install Powerlevel10k
 5. git clone --depth=1 https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
 - optional: Install fonts
 
