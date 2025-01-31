@@ -67,7 +67,7 @@ You can check if it installed correctly if you do ":Lazy" (LazyVim is picky on c
 
 1. sudo dnf install zsh
 - Set zsh to default using kitty
-<br>
+
 2. Change ~/.zshrc file to provided file instead
 - You will need to ask ChatGPT for the Git Repos to install some of the plugins
 - Syntax highlighting: git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:=~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
