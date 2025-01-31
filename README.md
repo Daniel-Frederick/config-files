@@ -69,7 +69,7 @@ You can check if it installed correctly if you do ":Lazy" (LazyVim is picky on c
 - Set zsh to default using kitty
 2. Change ~/.zshrc file to provided file instead
 
-Install Oh-my-zsh
+- Install Oh-my-zsh
 3. sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 4. sudo dnf install curl
 
