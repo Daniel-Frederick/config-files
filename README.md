@@ -68,6 +68,10 @@ You can check if it installed correctly if you do ":Lazy" (LazyVim is picky on c
 1. sudo dnf install zsh
 - Set zsh to default using kitty
 2. Change ~/.zshrc file to provided file instead
+- You will need to ask ChatGPT for the Git Repos to install some of the plugins
+- Syntax highlighting: git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:=~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+- Autojump: sudo dnf install autojump
+- z: git clone https://github.com/rupa/z.git ${ZSH_CUSTOM:=~/.oh-my-zsh/custom}/plugins/z
 
 - Install Oh-my-zsh
 3. sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
