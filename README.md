@@ -73,11 +73,11 @@ You can check if it installed correctly if you do ":Lazy" (LazyVim is picky on c
 - Syntax highlighting: git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:=~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 - Autojump: sudo dnf install autojump
 - z: git clone https://github.com/rupa/z.git ${ZSH_CUSTOM:=~/.oh-my-zsh/custom}/plugins/z
-<br>
+
 - Install Oh-my-zsh
 3. sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 4. sudo dnf install curl
-<br>
+
 - Install Powerlevel10k
 5. git clone --depth=1 https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
 - optional: Install fonts
