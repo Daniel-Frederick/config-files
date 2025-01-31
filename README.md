@@ -60,3 +60,23 @@ How to Configure C++ for LazyVim
 2. Go to file path: ~/.config/nvim/lua/plugins
 3. Add the clangd.lua plugin file from above
 You can check if it installed correctly if you do ":Lazy" (LazyVim is picky on capitalization)
+
+- - - -
+
+**Z Shell Installation & Customization**
+
+1. sudo dnf install zsh
+- Set zsh to default using kitty
+2. Change ~/.zshrc file to provided file instead
+
+Install Oh-my-zsh
+3. sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+4. sudo dnf install curl
+
+Install Powerlevel10k
+5. git clone --depth=1 https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
+- optional: Install fonts
+
+6. source ~/.zshrc
+
+
