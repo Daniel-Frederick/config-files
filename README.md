@@ -51,14 +51,16 @@ function name {
 
 - - - -
 
-**My LazyVim Setup**
-How to Configure C++ for LazyVim
+**My LazyVim Plugins**
+How to Configure languages for LazyVim
+
+For c++:
 1. Install clangd
 -  sudo dnf install clangd
 -  clangd --version
 
 2. Go to file path: ~/.config/nvim/lua/plugins
-3. Add the clangd.lua plugin file from above
+3. Add the languages.lua plugin file from above
 You can check if it installed correctly if you do ":Lazy" (LazyVim is picky on capitalization)
 
 - - - -
