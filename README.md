@@ -87,4 +87,21 @@ You can check if it installed correctly if you do `:Lazy` (LazyVim is picky on c
 
 6. `source ~/.zshrc`
 
+- - - -
+**How to add Lazyvim to Windows without WSL**
 
+1. [Install package manager Scoop](scoop.sh)
+
+2. [Install Wezterm](https://wezterm.org/install/windows.html)
+- NeoVim is picky on which terminals can be used since it has to support special graphic protocols. Can only use Kitty, Wezterm, and Ghosty. Wezterm is the only windows terminal allowed.
+
+3. Run this command in wezterm in *Adminastrator*
+- `scoop bucket add extras; scoop bucket add nerd-fonts; scoop bucket add versions; scoop install neovim python ripgrep fd nodejs-lts lazygit fzf gcc imagemagick ghostscript tectonic FiraCode-NF`
+
+4. [Install Lazyvim](https://www.lazyvim.org/installation)
+- `git clone https://github.com/LazyVim/starter C:\Users\<YourName>\AppData\Local\nvim`
+
+5. Enter `nvim` and do `:checkhealth` to make sure everything is working and all dependencies are installed.
+
+6. For Wezterm, you can customize it by creating a file called `.wezterm.lua` in `C:\Users\<YourName>`
+- There is a simple file provided that will switch the base shell to Bash
