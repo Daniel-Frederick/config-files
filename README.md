@@ -4,7 +4,7 @@ In the terminal:
 
 1. `nvim ~/.bashrc`
 
-- If a bashrc file does note exist, create one: `touch ~/.bashrc`
+  a. If a bashrc file does note exist, create one: `touch ~/.bashrc`
 
 add a PS1:
 
@@ -105,3 +105,15 @@ You can check if it installed correctly if you do `:Lazy` (LazyVim is picky on c
 
 6. For Wezterm, you can customize it by creating a file called `.wezterm.lua` in `C:\Users\<YourName>`
 - There is a simple file provided that will switch the base shell to Bash
+
+- - - -
+
+**Useful cmds**
+Install:
+- zen Browser:
+    a. `yay -S zen-browser-bin`
+    b. `yay -S zen-browser`
+- Brave Browser: `sudo pacman -S brave`
+- Discord: `sudo pacman -S discord`
+- VScode: `sudo pacman -S code`
+- Spotify: `yay -S spotify`
