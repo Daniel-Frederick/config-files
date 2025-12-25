@@ -111,9 +111,14 @@ You can check if it installed correctly if you do `:Lazy` (LazyVim is picky on c
 **Useful cmds**
 Install:
 - zen Browser:
+
     a. `yay -S zen-browser-bin`
+  
     b. `yay -S zen-browser`
+  
 - Brave Browser: `sudo pacman -S brave`
 - Discord: `sudo pacman -S discord`
-- VScode: `sudo pacman -S code`
 - Spotify: `yay -S spotify`
+- VScode: `sudo pacman -S code`
+
+Dont forget to update: `yes | sudo pacman -Syu`
