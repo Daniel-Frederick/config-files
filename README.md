@@ -123,3 +123,13 @@ Install:
 - VScode: `sudo pacman -S code`
 
 Dont forget to update: `yes | sudo pacman -Syu`
+
+- - - -
+
+**tmux**
+1. Add the file in: `~/.tmux.conf`
+
+2. You could continue customizing each individual plugin if you want but should be good enough for now
+
+3. In the future, you can split up each plugin into their own files for easier code maintenance
+
